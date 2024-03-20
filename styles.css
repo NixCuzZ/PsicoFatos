@@ -58,7 +58,7 @@ img.question-image {
 }
 
 /* Estilos para dispositivos móveis */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 2400px) {
     body {
         font-size: 14px; /* Reduzir o tamanho da fonte para dispositivos móveis */
     }
