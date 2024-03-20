@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsicoFatos - Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="https://i.imgur.com/1vAeiSd.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PsicoFatos - Quiz</h1>
+        </header>
+        <main>
+            <div id="questionContainer">
+                <div class="question-image-container">
+                    <img id="questionImage" class="question-image" src="" alt="Imagem da Pergunta">
+                </div>
+                <div id="questionText"></div>
+                <div id="options" class="options-container"></div>
+                <button id="nextButton" style="display: none;">Próxima</button>
+            </div>
+            <div id="resultContainer" style="display: none;">
+                <h2>Resultado</h2>
+                <p id="score"></p>
+                <button id="restartButton">Reiniciar</button>
+            </div>
+            <div id="timer"></div>
+        </main>
+        <footer>
+            <p>Direitos Reservados, Projetomentesunibr 2024</p>
+        </footer>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
