@@ -107,7 +107,7 @@ function startTimer() {
             clearInterval(timer);
             nextQuestion();
         }
-    }, 1000);
+    }, 3000);
 }
 
 function showQuestion() {
