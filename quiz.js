@@ -96,7 +96,7 @@ function checkAnswer(selectedOption) {
 
 
 function startTimer() {
-    let secondsLeft = 10;
+    let secondsLeft = 30;
     document.getElementById('timer').innerText = `Tempo restante: ${secondsLeft}s`;
 
     clearInterval(timer); 
